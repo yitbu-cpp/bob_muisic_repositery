@@ -1,0 +1,86 @@
+h1{
+font-size: 45px;
+}
+body {
+    margin:0;
+    padding: 20px;
+    min-height: 100vh;
+background-image: url("img5.png");
+background-color: rgb(16, 1, 31);
+background-repeat: no-repeat;
+line-height: 1.6;
+color:rgb(6, 199, 192);
+background-size: cover;
+}
+button{
+    background-color: rgb(16, 1, 31);
+    color:rgb(180, 176, 176);
+padding:8px 25px;
+cursor:pointer;
+}
+button:hover {
+background-color: whitesmoke;
+color:rgb(16, 1, 31);
+}
+.artistrow{
+align-items: center;
+gap: 20px;
+ display: flex;
+ margin-bottom: 20px;
+}
+.artistrow button{
+    width:150px;
+    height:50px;
+;
+    align-items: center;
+    
+}
+.artistrow img{
+width:150;
+height:150px;
+object-fit: cover;
+    
+}
+.page0{
+background-image: url("abdu_kiar.png");
+margin:-20px;
+padding: 20px;
+background-position: center;
+background-size: cover;
+}
+.page1{
+background-image: url("bisrat_ob.png");
+margin:-20px;
+padding: 20px;
+background-position: center;
+background-size: cover;
+}
+.page2{
+background-image: url("haymi_ob.jpg");
+margin:-20px;
+padding: 20px;
+background-position: center;
+background-size: cover;
+}
+.page3{
+background-image: url("hewi_ob.jpg");
+margin:-20px;
+padding: 20px;
+background-position: center;
+background-size: cover;
+}
+
+.page4{
+background-image: url("lemlem_ob.jpg");
+margin:0px;
+padding: -20px;
+background-position: center;
+background-size: cover;
+}
+.page5{
+background-image: url("mike_ob.jpg");
+margin:-20px;
+padding: 20px;
+background-position: center;
+background-size: cover;
+}
